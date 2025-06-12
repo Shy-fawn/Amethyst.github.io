@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // 獲取當前卦象資訊
             const primaryTitle = document.querySelector('.hexagram-title').textContent;
             const changedTitle = document.querySelector('.hexagram-pair .transformation-arrow') ? 
-                              document.querySelectorAll('.hexagram-title')[1].textContent : "無變卦";
+                              document.querySelectorAll('.hexagram-title')[1].textContent : "无變卦";
             
             // 創建 AI 解析彈窗
             const aiModal = document.createElement('div');
@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const primaryTitle = document.querySelector('.hexagram-title').textContent;
             const changedTitle = document.querySelector('.hexagram-pair .transformation-arrow') ? 
-                document.querySelectorAll('.hexagram-title')[1].textContent : "無變卦";
+                document.querySelectorAll('.hexagram-title')[1].textContent : "无變卦";
             
             const primaryGua = primaryTitle.split('.')[0].trim();
             const primaryName = primaryTitle.split('.')[1]?.trim() || "";
@@ -377,12 +377,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p><strong>本卦：</strong>${primaryTitle} (${primarySymbol})</p>
                             <p><strong>卦辭：</strong>${primaryVerse}</p>
                             <p><strong>涵義：</strong>${primaryMeaning}</p>
-                            ${changedTitle !== "無變卦" ? `<p><strong>變卦：</strong>${changedTitle}</p>` : ''}
+                            ${changedTitle !== "无變卦" ? `<p><strong>變卦：</strong>${changedTitle}</p>` : ''}
                             ${changingLinesInfo ? `<p><strong>${changingLinesInfo}</strong></p>` : ''}
                         </div>
                         <div class="ai-chat-content">
                             <iframe width="100%" height="500px" allow="microphone *" 
-                                src="https://www.gptbots.ai/widget/eeavspiekwtrdohhv0wh33d/chat.html?query=請解析易經${primaryGua}卦(${primaryName})。卦辭:${primaryVerse}。${changedTitle !== "無變卦" ? `有變卦:${changedTitle}。` : ''}${changingLinesInfo}請從卦象涵義、爻象含義、和生活應用三方面解釋。">
+                                src="https://www.gptbots.ai/widget/eeavspiekwtrdohhv0wh33d/chat.html?query=請解析易經${primaryGua}卦(${primaryName})。卦辭:${primaryVerse}。${changedTitle !== "无變卦" ? `有變卦:${changedTitle}。` : ''}${changingLinesInfo}請從卦象涵義、爻象含義、和生活應用三方面解釋。">
                             </iframe>
                         </div>
                     </div>
@@ -810,7 +810,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "師 - 眾", "比 - 親比", "小畜 - 馴養", "履 - 履行", "泰 - 通泰", "否 - 閉塞", 
             "同人 - 同道", "大有 - 大得", "謙 - 謙虛", "豫 - 喜悅", "隨 - 隨從", "蠱 - 蠱惑", 
             "臨 - 臨照", "觀 - 觀察", "噬嗑 - 咬合", "賁 - 裝飾", "剝 - 剝落", "復 - 復返", 
-            "无妄 - 無妄", "大畜 - 畜養", "頤 - 養正", "大過 - 過度", "坎 - 水", "離 - 火", 
+            "无妄 - 无妄", "大畜 - 畜養", "頤 - 養正", "大過 - 過度", "坎 - 水", "離 - 火", 
             "咸 - 感應", "恆 - 恆久", "遯 - 遯隱", "大壯 - 壯大", "晉 - 晉升", "明夷 - 傷明", 
             "家人 - 家族", "睽 - 睽違", "蹇 - 蹇澀", "解 - 解難", "損 - 損減", "益 - 增益", 
             "夬 - 決斷", "姤 - 遇合", "萃 - 萃聚", "升 - 上升", "困 - 困厄", "井 - 井泉", 
@@ -830,35 +830,35 @@ document.addEventListener('DOMContentLoaded', () => {
             "元亨利貞。", "元亨，利牝馬之貞。君子有攸往，先迷後得主，利西南得朋，東北喪朋。安貞，吉。", 
             "元亨，利貞，勿用有攸往，利建侯。", "亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。", 
             "有孚，光亨，貞吉。利涉大川。", "有孚，窒。惕中吉，終凶。利見大人，不利涉大川。", 
-            "貞，丈人，吉無咎。", "吉。原筮，元永貞，無咎。不寧方來，後夫凶。", 
+            "貞，丈人，吉无咎。", "吉。原筮，元永貞，无咎。不寧方來，後夫凶。", 
             "亨。密雲不雨，自我西郊。", "履虎尾，不咥人，亨。", 
             "小往大來，吉，亨。", "否之匪人，不利君子貞，大往小來。", 
             "同人於野，亨。利涉大川，利君子貞。", "元亨。", 
             "亨，君子有終。", "利建侯行師。", 
-            "元亨利貞，無咎。", "元亨，利涉大川。先甲三日，後甲三日。", 
+            "元亨利貞，无咎。", "元亨，利涉大川。先甲三日，後甲三日。", 
             "元亨，利貞。至於八月有凶。", "盥而不薦，有孚顒若。", 
             "亨。利用獄。", "亨。小利有攸往。", 
-            "不利有攸往。", "亨。出入無疾，朋來無咎。反復其道，七日來復，利有攸往。", 
+            "不利有攸往。", "亨。出入无疾，朋來无咎。反復其道，七日來復，利有攸往。", 
             "元亨，利貞。其匪正有眚，不利有攸往。", "利貞，不家食，吉。利涉大川。", 
             "貞吉。觀頤，自求口實。", "棟橈，利有攸往，亨。", 
             "習坎，有孚，維心亨，行有尚。", "利貞，亨。畜牝牛，吉。", 
-            "亨，利貞，取女吉。", "亨，無咎，利貞，利有攸往。", 
+            "亨，利貞，取女吉。", "亨，无咎，利貞，利有攸往。", 
             "亨，小利貞。", "利貞。", 
             "康侯用錫馬蕃庶，晝日三接。", "利艱貞。", 
             "利女貞。", "小事吉。", 
-            "利西南，不利東北；利見大人，貞吉。", "利西南，無所往，其來復吉。有攸往，夙吉。", 
-            "有孚，元吉，無咎，可貞，利有攸往。曷之用？二簋可用享。", "利有攸往，利涉大川。", 
+            "利西南，不利東北；利見大人，貞吉。", "利西南，无所往，其來復吉。有攸往，夙吉。", 
+            "有孚，元吉，无咎，可貞，利有攸往。曷之用？二簋可用享。", "利有攸往，利涉大川。", 
             "揚於王庭，孚號，有厲，告自邑，不利即戎，利有攸往。", "女壯，勿用取女。", 
             "亨。王假有廟，利見大人，亨，利貞。用大牲吉，利有攸往。", "元亨，用見大人，勿恤，南征吉。", 
-            "亨，貞，大人吉，無咎，有言不信。", "改邑不改井，無喪無得，往來井井。汔至，亦未繘井，羸其瓶，凶。", 
+            "亨，貞，大人吉，无咎，有言不信。", "改邑不改井，无喪无得，往來井井。汔至，亦未繘井，羸其瓶，凶。", 
             "己日乃孚，元亨，利貞，悔亡。", "元吉，亨。", 
-            "亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。", "艮其背，不獲其身；行其庭，不見其人，無咎。", 
-            "女歸吉，利貞。", "征凶，無攸利。", 
+            "亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。", "艮其背，不獲其身；行其庭，不見其人，无咎。", 
+            "女歸吉，利貞。", "征凶，无攸利。", 
             "亨，王假之，勿憂，宜日中。", "小亨，旅貞吉。", 
             "小亨，利攸往，利見大人。", "亨，利貞。", 
             "亨。王假有廟，利涉大川，利貞。", "亨。苦節不可貞。", 
             "豚魚吉，利涉大川，利貞。", "亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上宜下，大吉。", 
-            "亨，小利貞，初吉終亂。", "亨，小狐汔濟，濡其尾，無攸利。"
+            "亨，小利貞，初吉終亂。", "亨，小狐汔濟，濡其尾，无攸利。"
         ];
         
         // Ensure number is valid
